@@ -1,0 +1,80 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1407165464" file="D:\Downloads\ASGBOS\ASGBOS.prj" location="D:\Downloads\ASGBOS" name="ASGBOS" target="target.mlapps" target-name="Package App">
+    <param.appname>ASGBOS</param.appname>
+    <param.authnamewatermark>Seth Iris Canonigo, Nathan Huey, Lothar Es</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>App that Simulates Gravity Between Objects in Space</param.summary>
+    <param.description>The purpose of the program is to help expose individuals with the force calculations
+when first trying to determine the gravitational force between two large bodies in space. The
+program allows the user to choose two mass values of their choice along with the distance so all
+can be used within the Gravitational Force Equation</param.description>
+    <param.screenshot>C:\Users\irisc\AppData\Local\Temp\tpb3132992_125f_4e70_8366_b2a599a4d99d.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>5835de36-5e00-4683-bdd9-86267188704e</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\ASGBOS.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Earth.png</file>
+      <file>${PROJECT_ROOT}\HowToUse.mlapp</file>
+      <file>${PROJECT_ROOT}\Jupiter.png</file>
+      <file>${PROJECT_ROOT}\Mars.png</file>
+      <file>${PROJECT_ROOT}\Mercury.png</file>
+      <file>${PROJECT_ROOT}\Neptune.png</file>
+      <file>${PROJECT_ROOT}\Pluto.png</file>
+      <file>${PROJECT_ROOT}\Saturn.png</file>
+      <file>${PROJECT_ROOT}\Step1.gif</file>
+      <file>${PROJECT_ROOT}\Step2.gif</file>
+      <file>${PROJECT_ROOT}\Step3.gif</file>
+      <file>${PROJECT_ROOT}\Step4.gif</file>
+      <file>${PROJECT_ROOT}\Sun.png</file>
+      <file>${PROJECT_ROOT}\Uranus.png</file>
+      <file>${PROJECT_ROOT}\Venus.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\Downloads" name="ASGBOS" optional="false">D:\Downloads\ASGBOS</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
