@@ -1,11 +1,15 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1407165464" file="D:\Downloads\ASGBOS\ASGBOS.prj" location="D:\Downloads\ASGBOS" name="ASGBOS" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1252967152" file="D:\Downloads\ASGBOS\ASGBOS.prj" location="D:\Downloads\ASGBOS" name="ASGBOS" target="target.mlapps" target-name="Package App">
     <param.appname>ASGBOS</param.appname>
     <param.authnamewatermark>Seth Iris Canonigo, Nathan Huey, Lothar Es</param.authnamewatermark>
     <param.email />
     <param.company />
-    <param.icon />
-    <param.icons />
+    <param.icon>${PROJECT_ROOT}\ASGBOS_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\ASGBOS_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\ASGBOS_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\ASGBOS_resources\icon_16.png</file>
+    </param.icons>
     <param.summary>App that Simulates Gravity Between Objects in Space</param.summary>
     <param.description>The purpose of the program is to help expose individuals with the force calculations
 when first trying to determine the gravitational force between two large bodies in space. The
@@ -22,8 +26,6 @@ can be used within the Gravitational Force Equation</param.description>
     <unset>
       <param.email />
       <param.company />
-      <param.icon />
-      <param.icons />
       <param.version />
       <param.products.name />
       <param.products.id />
